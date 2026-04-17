@@ -58,6 +58,7 @@ ignore = [
     "PLR2004", # magic numbers ok in tests
     "PLR0913", # many args in fn signatures
     "PLR0911", # many returns ok in executor flow
+    "PLC0415", # lazy imports are intentional (solders in wallet, cycles)
     "S603",    # subprocess call — justified by tx_signer
     "S311",    # non-crypto random ok for tip account pick
     "S107",    # "env var name" default strings are not passwords
