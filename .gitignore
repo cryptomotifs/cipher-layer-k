@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Env / secrets (NEVER commit)
+.env
+.env.*
+*.pem
+*.key
+secrets/
+*-keystore.json
+cipher-secrets/
+
+# Local state
+*.sqlite
+*.sqlite3
+*.db
+trade_log.db
+paper_trades.db
+outflow.db
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
